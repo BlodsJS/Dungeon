@@ -1,0 +1,31 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Sensitive data
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.env
+
+# Arquivos compactados
+*.zip
+
+# Outros
+.DS_Store
+.idea/
+.vscode/
+__pypackages__/

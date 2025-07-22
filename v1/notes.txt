@@ -1,0 +1,68 @@
+primeiros passos:
+
+construcao do player:
+	hp
+	nome
+	stats
+	level
+	✓
+	attributes:✓
+		for
+		agi
+		vit
+		sor
+	equip: ✓
+		weapon
+		armor
+		ring
+	bonus:
+		crit
+		life steal
+		bloodhunt
+	bag:
+		hp potion
+		reset potion
+		
+
+construcao do monstro:
+	hp
+	nome
+	stats
+	level
+	✓
+	attributes:✓
+		for
+		agi
+		vit
+		sor
+
+batalhas;
+	#batalha ja criada
+
+	seletor de turnos;
+		aleatorio ou criacao de iniciativa
+
+	morte;
+		✓
+
+	acoes;
+		atacar
+		fugir
+		defender
+		
+	drops;
+		xp ✓
+		gold
+
+		(sem extras)
+
+interface;
+	player ui;
+		✓
+		status✓
+		equipamentos
+
+		(sem extras)
+
+
+
