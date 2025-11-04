@@ -1,10 +1,12 @@
 import random
+from .typing_ import *
+class Setup():
 
-class setup():
-    def spawn_monsters(monsters: dict) -> dict: 
+    @staticmethod
+    def spawn_monsters(monsters: Monsters_types) -> Monsters_types:
         """Set monster to game"""
         monsters.clear()
-        
+
         names = [
             "Slime",
             "Wolf",
@@ -52,8 +54,9 @@ class setup():
             monsters.append(mob)
 
         return monsters
-        
-    def spawn_boss(bosses: dict) -> dict:
+
+    @staticmethod
+    def spawn_boss(bosses: Monsters_types) -> Monsters_types:
         """spawn version boss """
         bosses.clear()
         names = [
@@ -87,7 +90,7 @@ class setup():
         ]
         for i in range(100):
             name = random.choice(names)
-            level = random.randint.randint(1, 100)
+            level = random.randint(1, 100)
             mob = {
                 "name": name,
                 "max_hp": int(100*(i+1)*0.5+50),
